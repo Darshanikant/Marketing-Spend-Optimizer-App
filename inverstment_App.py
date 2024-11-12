@@ -5,7 +5,7 @@ import numpy as np
 
 # Load the pre-trained model and the scaler
 model = pickle.load(open(r"inverstment.pkl", "rb"))
-scaler = pickle.load(open(r"", "rb"))  # Assuming you have a scaler file from training
+scaler = pickle.load(open(r"scaler.pkl", "rb"))  # Assuming you have a scaler file from training
 
 # Title for the app
 st.title("Marketing Spend Optimizer App")
