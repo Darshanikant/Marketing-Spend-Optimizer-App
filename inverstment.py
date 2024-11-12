@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pickle
 
 #import data set
-data=pd.read_csv(r"C:\Users\sunil\Desktop\DK\vs code\INVERSTMENT PREDICTION\Investment_data.csv")
+data=pd.read_csv(r"Investment_data.csv")
 
 #dependet vs independent
 x=data.iloc[:,:-1]
