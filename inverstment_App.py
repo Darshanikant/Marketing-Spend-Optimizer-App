@@ -4,8 +4,8 @@ import streamlit as st
 import numpy as np
 
 # Load the pre-trained model and the scaler
-model = pickle.load(open(r"C:\Users\sunil\Desktop\DK\vs code\INVERSTMENT PREDICTION\inverstment.pkl", "rb"))
-scaler = pickle.load(open(r"C:\Users\sunil\Desktop\DK\vs code\INVERSTMENT PREDICTION\scaler.pkl", "rb"))  # Assuming you have a scaler file from training
+model = pickle.load(open(r"inverstment.pkl", "rb"))
+scaler = pickle.load(open(r"", "rb"))  # Assuming you have a scaler file from training
 
 # Title for the app
 st.title("Marketing Spend Optimizer App")
